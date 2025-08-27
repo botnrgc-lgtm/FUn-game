@@ -1,0 +1,18 @@
+name: BlazeGun
+version: 1.0.0
+description: A blaze rod gun that shoots snowballs with cat sound effects
+author: BlazeGun Plugin
+main: com.blazegun.BlazeGunPlugin
+api-version: 1.8
+
+commands:
+  br:
+    description: Gives you a blaze rod gun
+    usage: /br
+    permission: blazegun.use
+    permission-message: You don't have permission to use this command
+
+permissions:
+  blazegun.use:
+    description: Allows use of the blaze rod gun
+    default: true
